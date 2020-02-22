@@ -17,7 +17,7 @@ class App < Sinatra::Base
     num = params[:number].to_i
     binding.pry
     num.times do
-      word
+      print word
     end
   end
 
