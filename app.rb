@@ -16,7 +16,6 @@ class App < Sinatra::Base
     word = params[:phrase]
     num = params[:number].to_i
     "#{word}"
-    end
   end
 
 end
