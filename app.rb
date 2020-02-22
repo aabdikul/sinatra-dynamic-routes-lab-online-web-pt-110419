@@ -34,11 +34,11 @@ class App < Sinatra::Base
     if opp == "add"
       "#{num1 + num2}"
     elsif opp == "subtract"
-      num1 - num2
+      "#{num1 - num2}"
     elsif opp == "multiply"
-      num1 * num2
+      "#{num1 * num2}"
     elsif opp == "divide"
-      num1/num2
+      "#{num1/num2}"
     end
   end
 
