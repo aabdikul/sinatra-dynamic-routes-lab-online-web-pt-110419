@@ -31,7 +31,15 @@ class App < Sinatra::Base
     opp = params[:operation]
     num1 = params[:number1].to_i
     num2 = params[:number2].to_i
-    num1 + num2
+    if opp = "add"
+      num1 + num2
+    elsif opp = "subtract"
+      num1 - num2
+    elsif opp = "multiply"
+      num1 * num2
+    elsif opp = "divide"
+      num1/num2
+    end
   end
 
 end
