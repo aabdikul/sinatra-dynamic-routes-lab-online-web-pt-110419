@@ -24,7 +24,7 @@ class App < Sinatra::Base
     c = params[:word3]
     d = params[:word4]
     e = params[:word5]
-    "#{a}" + "#{b}"
+    "#{a}" + "#{b}."
   end
 
 end
