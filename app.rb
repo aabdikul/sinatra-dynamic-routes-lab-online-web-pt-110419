@@ -16,7 +16,7 @@ class App < Sinatra::Base
     word = params[:phrase]
     num = params[:number].to_i
     num.times do
-      print word
+      print "#{word}"
     end
   end
 
